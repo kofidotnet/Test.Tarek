@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Test.Tarek.Database\Test.Tarek.Database.csproj" />
+    <ProjectReference Include="..\Test.Tarek.Models\Test.Tarek.Models.csproj" />
+  </ItemGroup>
+
+</Project>

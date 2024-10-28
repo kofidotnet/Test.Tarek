@@ -1,0 +1,46 @@
+﻿@using Test.Tarek.Models
+@using Test.Tarek.Models.Entities
+@using Test.Tarek.Web.Helpers
+
+@inject ApiClient ApiClient;
+
+<button @onclick="DisplayUser">And the job goes to....</button>
+
+@if (Users != null)
+{
+    <table class="table" style="display:@Display">
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Users)
+            {
+                <tr>
+                    <td>@user.FirstName @user.Surname : <a href="mailto:@user.EmailAddress">Send offer email</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code
+{
+    public string Display { get; set; } = "none;";
+    List<UserModel>? Users { get; set; }
+    private void DisplayUser() => Display = "block;";
+    protected async override Task OnInitializedAsync()
+    {
+        var result = await ApiClient.GetFromJsonAsync<BaseResponse<List<UserModel>>>("/api/Users");
+        if (result != null && result.Success)
+        {
+            if (result.Data != null)
+            {
+                Users = result.Data;
+            }
+
+        }
+        await base.OnInitializedAsync();
+    }
+}

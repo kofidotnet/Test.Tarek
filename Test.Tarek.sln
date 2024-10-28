@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34929.205
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{6FAD97A1-DC31-4DCA-A019-AA863720D9EC}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseInitial.sql = DatabaseInitial.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Tarek.Logic", "Test.Tarek.Logic\Test.Tarek.Logic.csproj", "{FDE3612A-DABC-4C31-BB87-48C813CE59BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Tarek.Models", "Test.Tarek.Models\Test.Tarek.Models.csproj", "{B0CC22E2-056B-476F-A0B9-403C81FA26F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Tarek.Database", "Test.Tarek.Database\Test.Tarek.Database.csproj", "{116489F9-5824-4A9F-8060-0546DD496207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Tarek.Api", "Test.Tarek.Api\Test.Tarek.Api.csproj", "{BBE94F0D-DC2D-457D-AE3C-2F76DDAEEBF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Tarek.Web", "Test.Tarek.Web\Test.Tarek.Web.csproj", "{0A6DD1FC-540A-4697-B005-69D62B1552B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDE3612A-DABC-4C31-BB87-48C813CE59BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE3612A-DABC-4C31-BB87-48C813CE59BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE3612A-DABC-4C31-BB87-48C813CE59BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE3612A-DABC-4C31-BB87-48C813CE59BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CC22E2-056B-476F-A0B9-403C81FA26F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CC22E2-056B-476F-A0B9-403C81FA26F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CC22E2-056B-476F-A0B9-403C81FA26F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CC22E2-056B-476F-A0B9-403C81FA26F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116489F9-5824-4A9F-8060-0546DD496207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116489F9-5824-4A9F-8060-0546DD496207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116489F9-5824-4A9F-8060-0546DD496207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116489F9-5824-4A9F-8060-0546DD496207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE94F0D-DC2D-457D-AE3C-2F76DDAEEBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE94F0D-DC2D-457D-AE3C-2F76DDAEEBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE94F0D-DC2D-457D-AE3C-2F76DDAEEBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE94F0D-DC2D-457D-AE3C-2F76DDAEEBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A6DD1FC-540A-4697-B005-69D62B1552B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A6DD1FC-540A-4697-B005-69D62B1552B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A6DD1FC-540A-4697-B005-69D62B1552B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A6DD1FC-540A-4697-B005-69D62B1552B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4EC1A12-F0A5-4868-B5EA-32D00D49A9A1}
+	EndGlobalSection
+EndGlobal
